@@ -1,0 +1,15 @@
+.landing {
+  height: 100vh;
+  background-image: url("../images/home-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.landing p,
+.landing h1 {
+  color: whitesmoke;
+  text-align: center; }
+
+.bottom {
+  position: absolute;
+  bottom: 20%;
+  right: 25%; }
