@@ -1,22 +1,22 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import posed, { PoseGroup } from 'react-pose';
+// import posed, { PoseGroup } from 'react-pose';
 import './css/skeleton.css';
 import Home from "./pages/Home";
 import Nav from "./components/Nav";
 import About from "./pages/About";
 import Footer from "./components/Footer";
 
-const RouteContainer = posed.div({
-  enter: { opacity: 1, delay: 200, beforeChildren: true },
-  exit: { opacity: 0 }
-});
+// const RouteContainer = posed.div({
+//   enter: { opacity: 1, delay: 200, beforeChildren: true },
+//   exit: { opacity: 0 }
+// });
   
 
 function App() {
   return (
     <>
-      <Router>
+      {/* <Router>
         <Route
           render={({ location }) => (
             <div id="site-container">
@@ -37,7 +37,15 @@ function App() {
             </div>
           )}
         />
+      </Router> */}
+      <Router>
+        <Nav />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+        </Switch>
       </Router>
+      <Footer />
     </>
   );
 }
