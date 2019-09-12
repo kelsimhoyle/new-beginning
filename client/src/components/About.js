@@ -1,15 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const About = ({contact}) => {
     return (
         <div className="home-content">
             <h2>About</h2>
             <div className="row">
-                <div className="four columns">
+                <div className="col-md-4">
                     <img src="https://picsum.photos/300/200/?blur" alt="Healthy People" />
                 </div>
-                <div className="eight columns">
+                <div className="col-md-8 ">
                     <h4>Meet Your Mentor</h4>
                     <p>Information about you and your story.</p>
                     <p>Stuff that is relevannt and interesting.</p>
