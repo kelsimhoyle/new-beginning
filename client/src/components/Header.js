@@ -4,7 +4,6 @@ import { Jumbotron, Container } from "react-bootstrap";
 const jumbotronBg = {
     backgroundImage: "url('../images/home-bg.jpg')",
     backgroundSize: "100%",
-    height: "100vh"
 }
 
 const Header = () => {

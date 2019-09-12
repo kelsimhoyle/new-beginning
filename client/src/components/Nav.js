@@ -30,7 +30,7 @@ const Navigation = () => {
                             <Nav.Link>About</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to="/contact">
-                            <Nav.Link>About</Nav.Link>
+                            <Nav.Link>Contact</Nav.Link>
                         </LinkContainer>
                         <NavDropdown title="Resources" id="basic-nav-dropdown">
                             <LinkContainer to="/blog">

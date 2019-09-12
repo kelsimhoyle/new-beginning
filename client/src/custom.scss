@@ -1,0 +1,17 @@
+$small-view: 600px;
+
+
+.jumbotron {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    @media screen and (max-width: 768px) {
+        height: 50vh;
+    }
+    @media screen and (max-width: 600px) {
+        height: 40vh;
+    }
+}
+
+
+@import '~bootstrap/scss/bootstrap.scss';
