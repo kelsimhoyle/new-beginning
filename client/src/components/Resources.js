@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Card, Button } from "react-bootstrap";
+import { LinkContainer } from 'react-router-bootstrap';
 
 const Resources = () => {
     return (
@@ -7,18 +8,49 @@ const Resources = () => {
             <h2>Resources</h2>
             <div className="row">
                 <div className="col-md-4 col-sm-12">
-                    <h4>Blog</h4>
-                    <p>Blog post info...</p>
-                    <Link to="/blog">View More Blog Posts</Link>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card.Body>
+                            <Card.Title>Blog Post</Card.Title>
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                             </Card.Text>
+                             <LinkContainer to="/blog">
+                            <Button variant="primary">View Blog</Button>
+                            </LinkContainer>
+                        </Card.Body>
+                    </Card>
                 </div>
                 <div className="col-md-4 col-sm-12">
-                    <h4>Recipes</h4>
-                    <p>An example recipe</p>
-                    <Link to="/recipes">View More Recipes</Link>
+                <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card.Body>
+                            <Card.Title>Recipe</Card.Title>
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                             </Card.Text>
+                             <LinkContainer to="/recipes">
+                            <Button variant="primary">View Blog</Button>
+                            </LinkContainer>
+                        </Card.Body>
+                    </Card>
                 </div>
                 <div className="col-md-4 col-sm-12">
-                    <h4>Healthy Tips</h4>
-                    <Link to="/tips">View More Healthy Tips</Link>
+                <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src="holder.js/100px180" />
+                        <Card.Body>
+                            <Card.Title>Health Tip</Card.Title>
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                             </Card.Text>
+                             <LinkContainer to="/tip">
+                            <Button variant="primary">View Blog</Button>
+                            </LinkContainer>
+                        </Card.Body>
+                    </Card>
                 </div>
             </div>
         </div>

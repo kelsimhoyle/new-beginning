@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Navigation from  "../components/Nav";
 // import posed from 'react-pose';
 
 // const Container = posed.div({
@@ -13,7 +14,8 @@ import { Link } from "react-router-dom";
 
 const About = () => {
     return (
-        // <Container>
+        <>
+            <Navigation />
             <div className="page-content container">
                 <h2>About</h2>
                 <div className="row">
@@ -32,7 +34,7 @@ const About = () => {
                 <h4>Get more info!</h4>
                 <p><Link to="/contact">Get some freebies!</Link></p>
             </div>
-        // </Container>
+    </>
     )
 }
 
