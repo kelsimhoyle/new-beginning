@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../components/Header";
-import About from "../components/About";
+import Header from "../components/Header/index";
+import Info from "../components/Info";
 import Resources from "../components/Resources";
 
 const Home = () => {
@@ -8,7 +8,7 @@ const Home = () => {
         <>
         <Header />
         <div className="container">
-        <About />
+        <Info />
         <Resources />
         </div>
         </>

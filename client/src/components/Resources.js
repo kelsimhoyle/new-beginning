@@ -1,12 +1,12 @@
 import React from "react";
-import { Card, Button } from "react-bootstrap";
+import { Card, Button, Row} from "react-bootstrap";
 import { LinkContainer } from 'react-router-bootstrap';
 
 const Resources = () => {
     return (
         <div className="home-content">
-            <h2>Resources</h2>
-            <div className="row">
+           <Row><h2 className="section-title">Resources</h2></Row>
+            <Row className="resource-content">
                 <div className="col-md-4 col-sm-12">
                     <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="holder.js/100px180" />
@@ -52,7 +52,7 @@ const Resources = () => {
                         </Card.Body>
                     </Card>
                 </div>
-            </div>
+            </Row>
         </div>
     )
 }

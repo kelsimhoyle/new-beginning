@@ -13,8 +13,8 @@ const Navigation = () => {
                     <Navbar.Brand>
                         <img
                             src={logo}
-                            width="30"
-                            height="30"
+                            width="50"
+                            height="50"
                             className="d-inline-block align-top"
                             alt="React Bootstrap logo"
                         />
@@ -48,24 +48,6 @@ const Navigation = () => {
             </Navbar>
         </>
 
-        // {/* <div className="nav row">
-        //     <div className={`${smallScreen ? "one" : "one-third"} column ${props.menuOpen ? "closed" : ""}`}>
-        //         <img src={logo} className="nav-logo" alt="Hummingbird Logo" />
-        //     </div>
-
-        //     <div className={`${smallScreen ? "eleven small" : "two-thirds columns large"}-nav columns`}>
-
-        //         <ul className={props.menuOpen ? "open" : "closed"}>
-        //             <li><div role="button" onClick={props.handleMenuClick} className="menu-icon"><IoIosMenu /></div></li>
-        //             <li className="nav-item"><NavLink to="/">Home</NavLink></li>
-        //             <li className="nav-item"><NavLink to="/about">About</NavLink></li>
-        //             <li className="nav-item"><NavLink to="/contact">Contact</NavLink></li>
-        //             <li className="nav-item"><NavLink to="/blog">Blog</NavLink></li>
-        //             <li className="nav-item"><NavLink to="/tips">Tips</NavLink></li>
-        //             <li className="nav-item"><NavLink to="/recipes">Recipes</NavLink></li>
-        //         </ul>
-        //     </div>
-        // </div> */}
     )
 }
 

@@ -1,0 +1,21 @@
+.jumbotron {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    @media screen and (max-width: 768px) {
+        height: 50vh;
+    }
+    @media screen and (max-width: 600px) {
+        height: 40vh;
+    }
+}
+
+.jumbotron h1 {
+    margin-top: 10vh; 
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.buttons {
+    padding-top: 40vh;
+}

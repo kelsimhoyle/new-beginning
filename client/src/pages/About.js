@@ -17,7 +17,7 @@ const About = () => {
         <>
             <Navigation />
             <div className="page-content container">
-                <h2>About</h2>
+                <h2 className="section-title">About</h2>
                 <div className="row">
                     <div className="four columns">
                         <img src="https://picsum.photos/300/200/?blur" alt="Healthy People" />
