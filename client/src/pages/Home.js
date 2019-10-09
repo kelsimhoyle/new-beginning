@@ -2,15 +2,16 @@ import React from "react";
 import Header from "../components/Header/index";
 import Info from "../components/Info";
 import Resources from "../components/Resources";
+import {Container} from "react-bootstrap";
 
 const Home = () => {
     return(
         <>
         <Header />
-        <div className="container">
+        <Container className="main">
         <Info />
         <Resources />
-        </div>
+        </Container>
         </>
     )
 }

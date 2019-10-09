@@ -1,11 +1,19 @@
 $small-view: 600px;
 $height-footer: 60px;
+$main-color: #EE4F4F;
+$secondary-color: #168EEA;
+$light-color: #FFF9EA;
+$dark-color: #323B43;
+$primary: $secondary-color;
+$info: $main-color;
+
 
 html {
   min-height: 100%;
   position: relative;
   body {
     margin-bottom: 100px;
+    background-color: white;
   }
   #footer {
     bottom: 0;
@@ -14,9 +22,18 @@ html {
     height: $height-footer;
     background-color: #f5f5f5;
     .footer-block {
-      margin: 20px 0;
+      margin-top: 20px;
     }
   }
+}
+
+h1,
+h5 {
+  color: $main-color;
+}
+
+h2 {
+  color: $secondary-color;
 }
 
 footer p {
@@ -32,6 +49,13 @@ footer p {
   margin-bottom: 4%;
 }
 
+.custom-btn {
+  background-color: $main-color;
+}
+
+.container {
+  margin: 5%;
+}
 
 
 @import '~bootstrap/scss/bootstrap.scss';

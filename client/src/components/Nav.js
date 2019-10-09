@@ -8,7 +8,7 @@ import { LinkContainer } from 'react-router-bootstrap';
 const Navigation = () => {
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" bg="primary" expand="lg">
+            <Navbar collapseOnSelect expand="lg" bg="light" expand="lg">
                 <LinkContainer to="/">
                     <Navbar.Brand>
                         <img

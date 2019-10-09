@@ -17,7 +17,7 @@ const Resources = () => {
                                 the card's content.
                              </Card.Text>
                              <LinkContainer to="/blog">
-                            <Button variant="primary">View Blog</Button>
+                            <Button className="custom-btn">View Blog</Button>
                             </LinkContainer>
                         </Card.Body>
                     </Card>
@@ -32,7 +32,7 @@ const Resources = () => {
                                 the card's content.
                              </Card.Text>
                              <LinkContainer to="/recipes">
-                            <Button variant="primary">View Blog</Button>
+                            <Button className="custom-btn">View Recipes</Button>
                             </LinkContainer>
                         </Card.Body>
                     </Card>
@@ -47,7 +47,7 @@ const Resources = () => {
                                 the card's content.
                              </Card.Text>
                              <LinkContainer to="/tip">
-                            <Button variant="primary">View Blog</Button>
+                            <Button className="custom-btn">View Tips</Button>
                             </LinkContainer>
                         </Card.Body>
                     </Card>
