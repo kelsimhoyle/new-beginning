@@ -8,6 +8,7 @@ import Tips from "./pages/Tips";
 import Blog from "./pages/Blog";
 import Recipes from "./pages/Recipes";
 import Footer from "./components/Footer";
+import CreatePost from './pages/CreatePost';
 // import { Nav } from 'react-bootstrap';
 
 
@@ -41,6 +42,7 @@ class App extends Component {
             <Route exact path="/recipes" component={Recipes} />
             <Route exact path="/blog" component={Blog} />
             <Route exact path="/tips" component={Tips} />
+            <Route exact path="/newpost" component={CreatePost} />
           </Switch>
         </Router>
         <Footer />
